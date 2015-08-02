@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320DE3691B6EDADA002236D7 /* IKHTTPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3681B6EDADA002236D7 /* IKHTTPTests.m */; };
+		320DE3861B6EDB07002236D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3741B6EDB07002236D7 /* AppDelegate.m */; };
+		320DE3871B6EDB07002236D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 320DE3751B6EDB07002236D7 /* LaunchScreen.xib */; };
+		320DE3881B6EDB07002236D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320DE3771B6EDB07002236D7 /* Main.storyboard */; };
+		320DE3891B6EDB07002236D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320DE3791B6EDB07002236D7 /* Images.xcassets */; };
+		320DE38B1B6EDB07002236D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE37B1B6EDB07002236D7 /* main.m */; };
+		320DE38C1B6EDB07002236D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE37D1B6EDB07002236D7 /* ViewController.m */; };
+		320DE38D1B6EDB07002236D7 /* IKHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3801B6EDB07002236D7 /* IKHTTP.m */; };
+		320DE38E1B6EDB07002236D7 /* IKHTTPDefaultResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3821B6EDB07002236D7 /* IKHTTPDefaultResponseHandler.m */; };
+		320DE38F1B6EDB07002236D7 /* IKHTTPSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3851B6EDB07002236D7 /* IKHTTPSession.m */; };
+		86F38C41959D1E889127FFC6 /* libPods-IKHTTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF794058EC1933A62B678CA7 /* libPods-IKHTTP.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		320DE3631B6EDADA002236D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320DE3411B6EDADA002236D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320DE3481B6EDADA002236D7;
+			remoteInfo = IKHTTP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		320DE3491B6EDADA002236D7 /* IKHTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKHTTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		320DE3621B6EDADA002236D7 /* IKHTTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IKHTTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		320DE3671B6EDADA002236D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320DE3681B6EDADA002236D7 /* IKHTTPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IKHTTPTests.m; sourceTree = "<group>"; };
+		320DE3731B6EDB07002236D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		320DE3741B6EDB07002236D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		320DE3761B6EDB07002236D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		320DE3781B6EDB07002236D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		320DE3791B6EDB07002236D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		320DE37A1B6EDB07002236D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320DE37B1B6EDB07002236D7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		320DE37C1B6EDB07002236D7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		320DE37D1B6EDB07002236D7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		320DE37F1B6EDB07002236D7 /* IKHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHTTP.h; sourceTree = "<group>"; };
+		320DE3801B6EDB07002236D7 /* IKHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHTTP.m; sourceTree = "<group>"; };
+		320DE3811B6EDB07002236D7 /* IKHTTPDefaultResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHTTPDefaultResponseHandler.h; sourceTree = "<group>"; };
+		320DE3821B6EDB07002236D7 /* IKHTTPDefaultResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHTTPDefaultResponseHandler.m; sourceTree = "<group>"; };
+		320DE3831B6EDB07002236D7 /* IKHTTPResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHTTPResponseHandler.h; sourceTree = "<group>"; };
+		320DE3841B6EDB07002236D7 /* IKHTTPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHTTPSession.h; sourceTree = "<group>"; };
+		320DE3851B6EDB07002236D7 /* IKHTTPSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHTTPSession.m; sourceTree = "<group>"; };
+		6DC004FE437E6627E81B916F /* Pods-IKHTTP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKHTTP.release.xcconfig"; path = "Pods/Target Support Files/Pods-IKHTTP/Pods-IKHTTP.release.xcconfig"; sourceTree = "<group>"; };
+		AF794058EC1933A62B678CA7 /* libPods-IKHTTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IKHTTP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C880C0FDBEF05A2749A97A7B /* Pods-IKHTTP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKHTTP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IKHTTP/Pods-IKHTTP.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		320DE3461B6EDADA002236D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F38C41959D1E889127FFC6 /* libPods-IKHTTP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320DE35F1B6EDADA002236D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		320DE3401B6EDADA002236D7 = {
+			isa = PBXGroup;
+			children = (
+				320DE37E1B6EDB07002236D7 /* IKHTTP */,
+				320DE3721B6EDB07002236D7 /* IKHTTPUI */,
+				320DE3651B6EDADA002236D7 /* IKHTTPTests */,
+				320DE34A1B6EDADA002236D7 /* Products */,
+				AFFDB502EE64913EF4E6E1BA /* Pods */,
+				C170C4E7D9CEB5CE3B93D4D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		320DE34A1B6EDADA002236D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320DE3491B6EDADA002236D7 /* IKHTTP.app */,
+				320DE3621B6EDADA002236D7 /* IKHTTPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320DE3651B6EDADA002236D7 /* IKHTTPTests */ = {
+			isa = PBXGroup;
+			children = (
+				320DE3681B6EDADA002236D7 /* IKHTTPTests.m */,
+				320DE3661B6EDADA002236D7 /* Supporting Files */,
+			);
+			path = IKHTTPTests;
+			sourceTree = "<group>";
+		};
+		320DE3661B6EDADA002236D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				320DE3671B6EDADA002236D7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		320DE3721B6EDB07002236D7 /* IKHTTPUI */ = {
+			isa = PBXGroup;
+			children = (
+				320DE3731B6EDB07002236D7 /* AppDelegate.h */,
+				320DE3741B6EDB07002236D7 /* AppDelegate.m */,
+				320DE3751B6EDB07002236D7 /* LaunchScreen.xib */,
+				320DE3771B6EDB07002236D7 /* Main.storyboard */,
+				320DE3791B6EDB07002236D7 /* Images.xcassets */,
+				320DE37A1B6EDB07002236D7 /* Info.plist */,
+				320DE37B1B6EDB07002236D7 /* main.m */,
+				320DE37C1B6EDB07002236D7 /* ViewController.h */,
+				320DE37D1B6EDB07002236D7 /* ViewController.m */,
+			);
+			path = IKHTTPUI;
+			sourceTree = "<group>";
+		};
+		320DE37E1B6EDB07002236D7 /* IKHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				320DE37F1B6EDB07002236D7 /* IKHTTP.h */,
+				320DE3801B6EDB07002236D7 /* IKHTTP.m */,
+				320DE3811B6EDB07002236D7 /* IKHTTPDefaultResponseHandler.h */,
+				320DE3821B6EDB07002236D7 /* IKHTTPDefaultResponseHandler.m */,
+				320DE3831B6EDB07002236D7 /* IKHTTPResponseHandler.h */,
+				320DE3841B6EDB07002236D7 /* IKHTTPSession.h */,
+				320DE3851B6EDB07002236D7 /* IKHTTPSession.m */,
+			);
+			path = IKHTTP;
+			sourceTree = "<group>";
+		};
+		AFFDB502EE64913EF4E6E1BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C880C0FDBEF05A2749A97A7B /* Pods-IKHTTP.debug.xcconfig */,
+				6DC004FE437E6627E81B916F /* Pods-IKHTTP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C170C4E7D9CEB5CE3B93D4D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF794058EC1933A62B678CA7 /* libPods-IKHTTP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		320DE3481B6EDADA002236D7 /* IKHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320DE36C1B6EDADA002236D7 /* Build configuration list for PBXNativeTarget "IKHTTP" */;
+			buildPhases = (
+				510C52D0D0D07A67A96F9D24 /* Check Pods Manifest.lock */,
+				320DE3451B6EDADA002236D7 /* Sources */,
+				320DE3461B6EDADA002236D7 /* Frameworks */,
+				320DE3471B6EDADA002236D7 /* Resources */,
+				C68DCBCC40539D57A3C70493 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IKHTTP;
+			productName = IKHTTP;
+			productReference = 320DE3491B6EDADA002236D7 /* IKHTTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		320DE3611B6EDADA002236D7 /* IKHTTPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320DE36F1B6EDADA002236D7 /* Build configuration list for PBXNativeTarget "IKHTTPTests" */;
+			buildPhases = (
+				320DE35E1B6EDADA002236D7 /* Sources */,
+				320DE35F1B6EDADA002236D7 /* Frameworks */,
+				320DE3601B6EDADA002236D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				320DE3641B6EDADA002236D7 /* PBXTargetDependency */,
+			);
+			name = IKHTTPTests;
+			productName = IKHTTPTests;
+			productReference = 320DE3621B6EDADA002236D7 /* IKHTTPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		320DE3411B6EDADA002236D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Mustard;
+				TargetAttributes = {
+					320DE3481B6EDADA002236D7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					320DE3611B6EDADA002236D7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 320DE3481B6EDADA002236D7;
+					};
+				};
+			};
+			buildConfigurationList = 320DE3441B6EDADA002236D7 /* Build configuration list for PBXProject "IKHTTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 320DE3401B6EDADA002236D7;
+			productRefGroup = 320DE34A1B6EDADA002236D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				320DE3481B6EDADA002236D7 /* IKHTTP */,
+				320DE3611B6EDADA002236D7 /* IKHTTPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		320DE3471B6EDADA002236D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320DE3891B6EDB07002236D7 /* Images.xcassets in Resources */,
+				320DE3871B6EDB07002236D7 /* LaunchScreen.xib in Resources */,
+				320DE3881B6EDB07002236D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320DE3601B6EDADA002236D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		510C52D0D0D07A67A96F9D24 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C68DCBCC40539D57A3C70493 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IKHTTP/Pods-IKHTTP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		320DE3451B6EDADA002236D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320DE38C1B6EDB07002236D7 /* ViewController.m in Sources */,
+				320DE38B1B6EDB07002236D7 /* main.m in Sources */,
+				320DE38F1B6EDB07002236D7 /* IKHTTPSession.m in Sources */,
+				320DE3861B6EDB07002236D7 /* AppDelegate.m in Sources */,
+				320DE38D1B6EDB07002236D7 /* IKHTTP.m in Sources */,
+				320DE38E1B6EDB07002236D7 /* IKHTTPDefaultResponseHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320DE35E1B6EDADA002236D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320DE3691B6EDADA002236D7 /* IKHTTPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		320DE3641B6EDADA002236D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 320DE3481B6EDADA002236D7 /* IKHTTP */;
+			targetProxy = 320DE3631B6EDADA002236D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		320DE3751B6EDB07002236D7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				320DE3761B6EDB07002236D7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		320DE3771B6EDB07002236D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				320DE3781B6EDB07002236D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		320DE36A1B6EDADA002236D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		320DE36B1B6EDADA002236D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		320DE36D1B6EDADA002236D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C880C0FDBEF05A2749A97A7B /* Pods-IKHTTP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/IKHTTPUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		320DE36E1B6EDADA002236D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DC004FE437E6627E81B916F /* Pods-IKHTTP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/IKHTTPUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		320DE3701B6EDADA002236D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IKHTTPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKHTTP.app/IKHTTP";
+			};
+			name = Debug;
+		};
+		320DE3711B6EDADA002236D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IKHTTPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKHTTP.app/IKHTTP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		320DE3441B6EDADA002236D7 /* Build configuration list for PBXProject "IKHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320DE36A1B6EDADA002236D7 /* Debug */,
+				320DE36B1B6EDADA002236D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320DE36C1B6EDADA002236D7 /* Build configuration list for PBXNativeTarget "IKHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320DE36D1B6EDADA002236D7 /* Debug */,
+				320DE36E1B6EDADA002236D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320DE36F1B6EDADA002236D7 /* Build configuration list for PBXNativeTarget "IKHTTPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320DE3701B6EDADA002236D7 /* Debug */,
+				320DE3711B6EDADA002236D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 320DE3411B6EDADA002236D7 /* Project object */;
+}

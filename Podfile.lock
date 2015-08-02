@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - IKCore (1.2)
+  - IKEvents (1.0.1)
+  - IKResults (1.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - IKCore (~> 1.0)
+  - IKEvents (~> 1.0)
+  - IKResults (~> 1.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  IKCore: adac0c5630064e08d6ed9b12f5a3bd9fb9ab870f
+  IKEvents: 2b07f793d66c7f89b5da4bfa91898ed591257d17
+  IKResults: 6aee22a99d79f01f42f00b28e89889deef80d18f
+
+COCOAPODS: 0.37.1
