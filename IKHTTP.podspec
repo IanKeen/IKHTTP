@@ -17,4 +17,5 @@ Pod::Spec.new do |spec|
   spec.dependency 'IKResults', '~> 1.0'
   spec.dependency 'IKEvents', '~> 1.0'
   spec.dependency 'AFNetworking'
+  
 end
